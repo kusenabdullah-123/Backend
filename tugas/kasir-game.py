@@ -70,7 +70,7 @@ while True:
         print('game tidak ditemukan')
         continue
     pilih = input('Apakah Pilih Lagi ?')
-    if pilih == 'y':
+    if pilih == 'y' or pilih == 'Y':
         continue
     else:
         print('==== list game ====')
